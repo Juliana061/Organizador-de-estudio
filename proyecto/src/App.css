@@ -1,6 +1,7 @@
 body{
   font-family: Arial;
-  background:#080000;
+  background:#000; /* fondo negro */
+  color:white; /* letras blancas */
 }
 
 .container{
@@ -15,18 +16,26 @@ form{
 input{
   padding:8px;
   margin:5px;
+  background:#111; /* fondo oscuro */
+  color:white; /* texto blanco */
+  border:1px solid #444;
 }
 
 button{
   padding:8px 12px;
   cursor:pointer;
+  background:white; /* botón blanco */
+  color:black; /* texto negro */
+  border:none;
+  border-radius:4px;
 }
 
 .task{
-  background:rgb(11, 11, 11);
+  background:#1a1a1a; /* tarjeta gris oscuro */
+  color:white; /* texto blanco */
   padding:15px;
   margin:10px auto;
   width:300px;
   border-radius:8px;
-  box-shadow:0px 2px 5px rgba(0,0,0,0.2);
+  box-shadow:0px 2px 5px rgba(255,255,255,0.2);
 }
